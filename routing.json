@@ -1,0 +1,41 @@
+{
+  "Name": "Selective VPN",
+  "GlobalProxy": false,
+  "RouteOrder": "proxy-direct-block",
+
+  "ProxySites": [
+    "youtube.com",
+    "youtu.be",
+    "googlevideo.com",
+    "ytimg.com",
+
+    "discord.com",
+    "discord.gg",
+    "discordapp.com",
+    "discordapp.net",
+
+    "twitter.com",
+    "x.com",
+    "twimg.com",
+
+    "openai.com",
+    "chat.openai.com",
+    "anthropic.com",
+    "claude.ai",
+    "perplexity.ai",
+
+    "huggingface.co",
+    "replicate.com"
+  ],
+
+  "DirectSites": [],
+  "BlockSites": [],
+
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://cloudflare-dns.com/dns-query",
+  "RemoteDNSIP": "1.1.1.1",
+
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://dns.google/dns-query",
+  "DomesticDNSIP": "8.8.8.8"
+}
