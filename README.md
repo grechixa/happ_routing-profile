@@ -1,6 +1,24 @@
 # Selective VPN Routing for Happ
 
+Discord лагает после включения VPN?  
+YouTube начинает грузиться медленно?  
+AI сайты открываются только через VPN?  
+  
+Этот репозиторий решает это через split routing.
+
+---
+## Short install
+[Install routing profile](happ://routing/add/eyJOYW1lIjoiUlUgc2VsZWN0aXZlIFZQTiBBSSIsIkdsb2JhbFByb3h5IjoiZmFsc2UiLCJSb3V0ZU9yZGVyIjoicHJveHktZGlyZWN0LWJsb2NrIiwiUmVtb3RlRE5TVHlwZSI6IkRvSCIsIlJlbW90ZUROU0RvbWFpbiI6Imh0dHBzOi8vY2xvdWRmbGFyZS1kbnMuY29tL2Rucy1xdWVyeSIsIlJlbW90ZUROU0lQIjoiMS4xLjEuMSIsIkRvbWVzdGljRE5TVHlwZSI6IkRvSCIsIkRvbWVzdGljRE5TRG9tYWluIjoiaHR0cHM6Ly9kbnMuZ29vZ2xlL2Rucy1xdWVyeSIsIkRvbWVzdGljRE5TSVAiOiI4LjguOC44IiwiR2VvaXB1cmwiOiIiLCJHZW9zaXRldXJsIjoiIiwiTGFzdFVwZGF0ZWQiOiIxNzczNjY5MzY3IiwiRG5zSG9zdHMiOnt9LCJEaXJlY3RTaXRlcyI6W10sIkRpcmVjdElwIjpbXSwiUHJveHlTaXRlcyI6WyJnb29nbGV2aWRlby5jb20iLCJ5dGltZy5jb20iLCJ0d2l0dGVyLmNvbSIsInguY29tIiwidHdpbWcuY29tIiwib3BlbmFpLmNvbSIsImNoYXQub3BlbmFpLmNvbSIsImFudGhyb3BpYy5jb20iLCJjbGF1ZGUuYWkiLCJwZXJwbGV4aXR5LmFpIiwiaHVnZ2luZ2ZhY2UuY28iLCJyZXBsaWNhdGUuY29tIl0sIlByb3h5SXAiOltdLCJCbG9ja1NpdGVzIjpbXSwiQmxvY2tJcCI6W10sIkRvbWFpblN0cmF0ZWd5IjoiSVBJZk5vbk1hdGNoIiwiRmFrZUROUyI6ImZhbHNlIiwiVXNlQ2h1bmtGaWxlcyI6InRydWUifQ)
+
+---
 Инструкция по настройке **split-routing** в Happ, чтобы VPN использовался **только для выбранных сайтов** (например: YouTube, Discord, AI-сервисы), а остальной трафик шел напрямую.
+
+Без routing:
+VPN → весь трафик → медленно
+
+С routing:
+обычные сайты → напрямую
+AI / blocked сайты → VPN
 
 Документация Happ:
 [https://www.happ.su/main/ru/dev-docs](https://www.happ.su/main/ru/dev-docs)
